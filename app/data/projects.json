@@ -1,0 +1,54 @@
+[
+  {
+    "id": "project1",
+    "name": "Project 1",
+    "image": "./images/projects/proj01/proj01_01.jpg",
+    "slides": [
+      {"id":"image00", "src":"./images/projects/proj01/proj01_01.jpg"},
+      {"id":"image01", "src":"./images/projects/proj01/proj01_02.jpg"},
+      {"id":"image02", "src":"./images/projects/proj01/proj01_03.jpg"},
+      {"id":"image03", "src":"./images/projects/proj01/proj01_04.jpg"},
+      {"id":"image04", "src":"./images/projects/proj01/proj01_05.jpg"},
+      {"id":"image04", "src":"./images/projects/proj01/proj01_06.jpg"}
+    ]
+  },
+  {
+    "id": "project2",
+    "name": "Project 2",
+    "image": "./images/projects/proj01/proj01_01.jpg",
+    "slides": [
+      {"id":"image00", "src":"./images/projects/proj01/proj01_01.jpg"},
+      {"id":"image01", "src":"./images/projects/proj01/proj01_02.jpg"},
+      {"id":"image02", "src":"./images/projects/proj01/proj01_03.jpg"},
+      {"id":"image03", "src":"./images/projects/proj01/proj01_04.jpg"},
+      {"id":"image04", "src":"./images/projects/proj01/proj01_05.jpg"},
+      {"id":"image04", "src":"./images/projects/proj01/proj01_06.jpg"}
+    ]
+  },
+  {
+    "id": "project3",
+    "name": "Project 3",
+    "image": "./images/projects/proj01/proj01_01.jpg",
+    "slides": [
+      {"id":"image00", "src":"./images/projects/proj01/proj01_01.jpg"},
+      {"id":"image01", "src":"./images/projects/proj01/proj01_02.jpg"},
+      {"id":"image02", "src":"./images/projects/proj01/proj01_03.jpg"},
+      {"id":"image03", "src":"./images/projects/proj01/proj01_04.jpg"},
+      {"id":"image04", "src":"./images/projects/proj01/proj01_05.jpg"},
+      {"id":"image04", "src":"./images/projects/proj01/proj01_06.jpg"}
+    ]
+  },
+  {
+    "id": "project4",
+    "name": "Project 4",
+    "image": "./images/projects/proj01/proj01_01.jpg",
+    "slides": [
+      {"id":"image00", "src":"./images/projects/proj01/proj01_01.jpg"},
+      {"id":"image01", "src":"./images/projects/proj01/proj01_02.jpg"},
+      {"id":"image02", "src":"./images/projects/proj01/proj01_03.jpg"},
+      {"id":"image03", "src":"./images/projects/proj01/proj01_04.jpg"},
+      {"id":"image04", "src":"./images/projects/proj01/proj01_05.jpg"},
+      {"id":"image04", "src":"./images/projects/proj01/proj01_06.jpg"}
+    ]
+  }
+]

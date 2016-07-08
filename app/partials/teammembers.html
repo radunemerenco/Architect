@@ -1,0 +1,16 @@
+<section class="container-fluid team-members">
+  <div class="col-md-3 col-sm-6" ng-repeat="teamMember in teamMembers">
+    <div class="panel team-members-item" ng-click="showMemberDetails(teamMember.linkName)">
+      <div class="panel-title">{{teamMember.position}}</div>
+      <div class="panel-body">
+        <div class="team-members-image">
+          <img ng-src="{{teamMember.img}}"/>
+        </div>
+        <h4>{{teamMember.name}}</h4>
+        <div class="team-members-details">
+          <span class="small-text">{{teamMember.shortDescr}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

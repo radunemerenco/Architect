@@ -1,0 +1,42 @@
+<div class="about-page page-wrapper">
+  <div class="">
+    <div class="about-navigation" ng-if="false">
+      <div class="list-group" ng-hide="aboutMenuToggled">
+        <a href="" class="list-group-item" ng-class="isActivePage(page) ? 'active' : ''" ng-repeat="page in pages" ng-click="goToPage(page)">{{page.title}}</a>
+      </div>
+      <button type="button" class="btn btn-default toggle-button" ng-click="aboutMenuToggled = !aboutMenuToggled"><i class="fa" ng-class="'fa-angle-double-' + (aboutMenuToggled ? 'right' : 'left')"></i></button>
+    </div>
+    <section class="center-text" ng-if="false">
+      <div class="btn-group category-buttons" role="group" aria-label="...">
+        <button type="button" class="btn btn-default">Left</button>
+        <button type="button" class="btn btn-default">Middle</button>
+        <button type="button" class="btn btn-default">Right</button>
+      </div>
+    </section>
+    <section class="center-text about-presentation" ng-if="getCurrentPage() === 'prezentare'">
+      <h1>ARCH-COM GROUP</h1>
+      <div class="container-fluid">
+        <div class="panel">
+          <div class="panel-body text-bigger">
+            <p class="lead">
+              <img height="100" src="images/interior-architect-logo.png" alt="Architect">
+            </p>
+            <p class="text">Lorem Ipsum este pur şi simplu o machetă pentru text a industriei tipografice. Lorem Ipsum a fost macheta standard a industriei încă din secolul al XVI-lea, când un tipograf anonim a luat o planşetă de litere şi le-a amestecat pentru a crea o carte demonstrativă pentru literele respective. Nu doar că a supravieţuit timp de cinci secole, dar şi a facut saltul în tipografia electronică practic neschimbată. A fost popularizată în anii '60 odată cu ieşirea colilor Letraset care conţineau pasaje Lorem Ipsum, iar mai recent, prin programele de publicare pentru calculator, ca Aldus PageMaker care includeau versiuni de Lorem Ipsum.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="center-text" ng-if="getCurrentPage() === 'echipa'">
+      <h1>Echipa</h1>
+      <div class="container-fluid">
+        <team-members selected-member='selectedMember'></team-members>
+      </div>
+    </section>
+    <section class="center-text" ng-if="getCurrentPage() === 'istoric'">
+      <h1>Istoric</h1>
+      <div class="row">
+        <timeline class="text-bigger"></timeline>
+      </div>
+    </section>
+  </div>
+</div>

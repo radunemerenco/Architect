@@ -1,0 +1,8 @@
+<div style="clear: both;"></div>
+<div class="dropdown-container" ng-show="visible"> <!-- ng-class="{ show: !hidden }" -->
+  <div class="dropdown-list">
+      <div class="dropdown-item" ng-repeat="item in list" ng-click="select(item)">
+        <a ng-href="{{item.link}}">{{item.name}}</a>
+      </div>
+  </div>
+</div>
